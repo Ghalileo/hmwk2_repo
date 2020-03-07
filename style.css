@@ -1,0 +1,138 @@
+
+h1 {
+    font-family: 'Molle', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+body {
+    background-color: royalblue;
+}
+.nav{
+    padding-left: 1000px;   
+}
+.balance {
+    max-width: 55%;
+    float: left;
+
+}
+.washington {
+    max-width: 150%;
+    border: blueviolet;
+    
+}
+.mexico {
+    max-width: 200%;
+    
+}
+h4 {
+    text-align: center;
+}
+
+
+.Title-High{
+    font-weight: bold;
+}
+.skills {
+    text-align: center;
+}
+.artist {
+    text-align: center;
+}
+.artist-intro {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.Griffin {
+    text-align: center;
+}
+
+.Intro-Body { 
+    font-family: 'Pacifico', cursive;
+    color: slateblue;
+    float: right;
+}
+.Welcome {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.Intro-Statement {
+    color: white;
+}
+.LostDream {
+    border:2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border-width: thick;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+#eye {
+    max-width: 70;
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="nav"]{
+      width: 50%;
+    }
+}
+h3 {
+    text-align: center;
+}
+.Ose {
+  
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  font-size: 48px;
+  font-family: 'Righteous', cursive;
+  background: darkorchid;
+  color: beige;
+}
+.footer {
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: darkcyan;
+   color: Black;
+   text-align: center;
+   font-family: 'Righteous', cursive;
+}
+
+    /* MEDIA QUERIES FOR ADAPTIVE FIXES */
+
+    /* @media screen and (max-width: 768px) {
+        .nav{
+          padding-top: 30%;
+          width: 100%;
+          padding-bottom: 1%;
+          
+      }
+      p {font-size:2rem;}
+      }
+    
+      @media screen and (max-width: 992px) {
+        .nav{
+          padding-top: 17%;
+          width: 100%;
+          padding-bottom: 1%;
+      }
+      {font-size:2.5rem;}
+      }
+    
+      @media screen and (max-width: 420px) {
+        .nav{
+          padding-top: 33%;
+          width: 100%;
+          padding-bottom: 1%;
+      }
+      {font-size:1.5rem;}
+      } */
